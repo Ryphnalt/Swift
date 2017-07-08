@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Iez-QH-iJi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--我的收藏-->
+        <scene sceneID="nJv-hX-pTu">
+            <objects>
+                <viewController id="PGv-lq-rZi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rq7-OO-V2S"/>
+                        <viewControllerLayoutGuide type="bottom" id="CgO-A8-amu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Idd-zq-RYo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的收藏" image="save_icon" id="dIQ-m0-X9M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRH-W0-zpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1447" y="-568"/>
+        </scene>
+        <!--首頁-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首頁" image="home_icon" id="AEv-mi-wDU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2479" y="1167"/>
+        </scene>
+        <!--通知中心-->
+        <scene sceneID="I7b-ix-8ze">
+            <objects>
+                <viewController id="nyI-IO-gLy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="97l-Ct-ken"/>
+                        <viewControllerLayoutGuide type="bottom" id="BF3-Oz-eW1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ioA-Au-aYN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="通知中心" image="message_icon" badgeValue="99" id="MMh-ph-E7k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sF-gw-t6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1447" y="79"/>
+        </scene>
+        <!--履歷管理-->
+        <scene sceneID="nw6-hA-cDS">
+            <objects>
+                <viewController id="BHj-CR-B6W" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h5e-al-w9j"/>
+                        <viewControllerLayoutGuide type="bottom" id="cMK-yy-UKK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pyy-oU-0UT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="履歷管理" image="resume_icon" id="UJ2-ID-M4k"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qsd-7c-3Lg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1447" y="724"/>
+        </scene>
+        <!--找工作-->
+        <scene sceneID="TFv-GE-f5o">
+            <objects>
+                <viewController id="2Li-mu-ucW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="twU-M6-wE7"/>
+                        <viewControllerLayoutGuide type="bottom" id="T63-Hf-KOe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iGM-Ie-BeM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="找工作" image="search_icon" id="dbb-dv-RrF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yl1-NX-YUX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1447" y="-1214"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SMw-T4-QeI">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Iez-QH-iJi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="h8V-mH-nek">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="qtJ-2Q-2e3"/>
+                        <segue destination="2Li-mu-ucW" kind="relationship" relationship="viewControllers" id="026-oX-W0u"/>
+                        <segue destination="PGv-lq-rZi" kind="relationship" relationship="viewControllers" id="hG9-ZQ-KTn"/>
+                        <segue destination="nyI-IO-gLy" kind="relationship" relationship="viewControllers" id="wFv-8D-yw4"/>
+                        <segue destination="BHj-CR-B6W" kind="relationship" relationship="viewControllers" id="WAN-rk-XOu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pV-kW-wcr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2479" y="141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home_icon" width="24" height="24"/>
+        <image name="message_icon" width="25" height="25"/>
+        <image name="resume_icon" width="25" height="25"/>
+        <image name="save_icon" width="25" height="25"/>
+        <image name="search_icon" width="25" height="25"/>
+    </resources>
+</document>
