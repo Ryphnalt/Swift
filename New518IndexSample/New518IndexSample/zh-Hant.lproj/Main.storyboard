@@ -12,7 +12,7 @@
         <!--我的收藏-->
         <scene sceneID="nJv-hX-pTu">
             <objects>
-                <viewController id="PGv-lq-rZi" sceneMemberID="viewController">
+                <viewController id="PGv-lq-rZi" customClass="Save" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rq7-OO-V2S"/>
                         <viewControllerLayoutGuide type="bottom" id="CgO-A8-amu"/>
@@ -31,7 +31,7 @@
         <!--首頁-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="Index" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -50,7 +50,7 @@
         <!--通知中心-->
         <scene sceneID="I7b-ix-8ze">
             <objects>
-                <viewController id="nyI-IO-gLy" sceneMemberID="viewController">
+                <viewController id="nyI-IO-gLy" customClass="Message" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="97l-Ct-ken"/>
                         <viewControllerLayoutGuide type="bottom" id="BF3-Oz-eW1"/>
@@ -69,7 +69,7 @@
         <!--履歷管理-->
         <scene sceneID="nw6-hA-cDS">
             <objects>
-                <viewController id="BHj-CR-B6W" sceneMemberID="viewController">
+                <viewController id="BHj-CR-B6W" customClass="Resume" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h5e-al-w9j"/>
                         <viewControllerLayoutGuide type="bottom" id="cMK-yy-UKK"/>
@@ -88,7 +88,7 @@
         <!--找工作-->
         <scene sceneID="TFv-GE-f5o">
             <objects>
-                <viewController id="2Li-mu-ucW" sceneMemberID="viewController">
+                <viewController id="2Li-mu-ucW" customClass="Search" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="twU-M6-wE7"/>
                         <viewControllerLayoutGuide type="bottom" id="T63-Hf-KOe"/>
@@ -104,10 +104,10 @@
             </objects>
             <point key="canvasLocation" x="-1447" y="-1214"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--MainTabBarController-->
         <scene sceneID="SMw-T4-QeI">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Iez-QH-iJi" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="Iez-QH-iJi" userLabel="MainTabBarController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="h8V-mH-nek">
                         <autoresizingMask key="autoresizingMask"/>
