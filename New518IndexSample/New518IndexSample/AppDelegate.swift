@@ -20,7 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         let loginView = LoginViewController()
-        loginView.showLoginView(current: 0)
+        loginView.backgroundImages = ["slide1","slide2","slide3","slide4"]
+        loginView.titles = ["標題1","標題2","標題3","標題4"]
+        loginView.descriptions = ["特色說明1","特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2","特色說明3","特色說明4"]
+        loginView.showLoginView()
         return true
     }
 
