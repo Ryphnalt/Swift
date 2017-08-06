@@ -547,6 +547,7 @@
 				4111F7271F10748700CA7198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4111F7281F10748700CA7198 /* Build configuration list for PBXNativeTarget "New518IndexSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +556,7 @@
 				4111F72A1F10748700CA7198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4111F72B1F10748700CA7198 /* Build configuration list for PBXNativeTarget "New518IndexSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +565,7 @@
 				4111F72D1F10748700CA7198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

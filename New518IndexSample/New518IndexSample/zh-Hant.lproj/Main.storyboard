@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -47,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="-2479" y="1167"/>
         </scene>
-        <!--通知中心-->
+        <!--Message-->
         <scene sceneID="I7b-ix-8ze">
             <objects>
                 <viewController id="nyI-IO-gLy" customClass="Message" customModule="New518IndexSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -58,13 +59,29 @@
                     <view key="view" contentMode="scaleToFill" id="ioA-Au-aYN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="60x-DN-sVt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <sections/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="60x-DN-sVt" firstAttribute="leading" secondItem="ioA-Au-aYN" secondAttribute="leadingMargin" constant="-16" id="DCa-eT-0Nl"/>
+                            <constraint firstItem="60x-DN-sVt" firstAttribute="top" secondItem="97l-Ct-ken" secondAttribute="bottom" constant="-64" id="eNl-Bn-8fK"/>
+                            <constraint firstItem="BF3-Oz-eW1" firstAttribute="top" secondItem="60x-DN-sVt" secondAttribute="bottom" id="iKg-wx-e9h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="60x-DN-sVt" secondAttribute="trailing" constant="-16" id="meb-kb-XwT"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="通知中心" image="message_icon" badgeValue="99" id="MMh-ph-E7k"/>
+                    <navigationItem key="navigationItem" id="Dtf-IG-RD6"/>
+                    <connections>
+                        <outlet property="listTableView" destination="60x-DN-sVt" id="uin-vV-q3U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5sF-gw-t6H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1447" y="79"/>
+            <point key="canvasLocation" x="-508" y="78.710644677661179"/>
         </scene>
         <!--履歷管理-->
         <scene sceneID="nw6-hA-cDS">
@@ -83,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsd-7c-3Lg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1447" y="724"/>
+            <point key="canvasLocation" x="-508" y="723.68815592203907"/>
         </scene>
         <!--找工作-->
         <scene sceneID="TFv-GE-f5o">
@@ -110,6 +127,7 @@
                 <tabBarController storyboardIdentifier="MainTabBarController" automaticallyAdjustsScrollViewInsets="NO" id="Iez-QH-iJi" userLabel="MainTabBarController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="h8V-mH-nek">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
@@ -120,13 +138,33 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="qtJ-2Q-2e3"/>
                         <segue destination="2Li-mu-ucW" kind="relationship" relationship="viewControllers" id="026-oX-W0u"/>
                         <segue destination="PGv-lq-rZi" kind="relationship" relationship="viewControllers" id="hG9-ZQ-KTn"/>
-                        <segue destination="nyI-IO-gLy" kind="relationship" relationship="viewControllers" id="wFv-8D-yw4"/>
+                        <segue destination="eU4-S5-fa2" kind="relationship" relationship="viewControllers" id="wFv-8D-yw4"/>
                         <segue destination="BHj-CR-B6W" kind="relationship" relationship="viewControllers" id="WAN-rk-XOu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7pV-kW-wcr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2479" y="141"/>
+        </scene>
+        <!--通知中心-->
+        <scene sceneID="JcA-B9-xZq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eU4-S5-fa2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="通知中心" image="message_icon" badgeValue="99" id="MMh-ph-E7k"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="wiy-Fw-RsZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90196078430000004" green="0.4941176471" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nyI-IO-gLy" kind="relationship" relationship="rootViewController" id="j4L-4r-8gI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6L-jj-PgY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1447.2" y="78.710644677661179"/>
         </scene>
     </scenes>
     <resources>

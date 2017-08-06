@@ -17,13 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         Thread.sleep(forTimeInterval: 2)
+        UIApplication.shared.statusBarStyle = .lightContent
         
-        
-        let loginView = LoginViewController()
-        loginView.backgroundImages = ["slide1","slide2","slide3","slide4"]
-        loginView.titles = ["標題1","標題2","標題3","標題4"]
-        loginView.descriptions = ["特色說明1","特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2","特色說明3","特色說明4"]
-        loginView.showLoginView()
+//        let loginView = LoginViewController()
+//        loginView.backgroundImages = ["slide1","slide2","slide3","slide4"]
+//        loginView.titles = ["標題1","標題2","標題3","標題4"]
+//        loginView.descriptions = ["特色說明1","特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2特色說明2","特色說明3","特色說明4"]
+//        loginView.showLoginView()
         return true
     }
 
