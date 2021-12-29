@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>603113411901-beaqi8fqd4o0daajuosv7u2bhbvsbiit.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.603113411901-beaqi8fqd4o0daajuosv7u2bhbvsbiit</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC2LG-9b6fua40FTBzSWnWdPSXbDdNpTg4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>603113411901</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>M4-Studio.WhatTheFlowers</string>
+	<key>PROJECT_ID</key>
+	<string>whattheflowers-8543b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>whattheflowers-8543b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:603113411901:ios:ac484cf234694421e72154</string>
+</dict>
+</plist>
